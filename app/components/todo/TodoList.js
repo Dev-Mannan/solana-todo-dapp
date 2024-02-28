@@ -1,3 +1,4 @@
+'use client'
 import styles from '../../styles/Todo.module.css'
 import TodoItem from './TodoItem'
 
