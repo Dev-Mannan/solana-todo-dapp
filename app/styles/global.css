@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #181820;
     --secondary-color: #21212b;
@@ -101,3 +102,25 @@ body {
     background-color: var(--primary-color);
     color: var(--gray-color);
 }
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: var(--fs-sm); /* Adjust the font size for mobile devices */
+    }
+    /* Add other mobile-specific styles here */
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
+    body {
+      font-size: var(--fs-base); /* Adjust the font size for tablets */
+    }
+    /* Add other tablet-specific styles here */
+  }
+  
+  /* PC Styles */
+  @media only screen and (min-width: 1025px) {
+    body {
+      font-size: var(--fs-lg); /* Adjust the font size for PCs */
+    }
+    /* Add other PC-specific styles here */
+  }
