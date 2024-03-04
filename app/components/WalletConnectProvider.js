@@ -12,7 +12,7 @@ export const WalletConnectProvider = ({ children, ...props }) => {
   
     const endpoint = useMemo(() => {
       if (network === WalletAdapterNetwork.Devnet) {
-        return 'https://few-summer-wildflower.solana-devnet.quiknode.pro/29761b618c8a598ca7edb0172edc308daa29787e/'
+        return 'https://quiet-methodical-research.solana-devnet.quiknode.pro/1add68c1a6d36de7a0503442790101ea9516d284/'
       }
       return clusterApiUrl(network)
     }, [network])
